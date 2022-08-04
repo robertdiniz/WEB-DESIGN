@@ -2,13 +2,13 @@
     margin: 0;
     padding: 0;
     word-spacing: 3px;
+    color: #343434;
 }
 
-body{
-    margin: 0 auto;
-    color: #343434;
+body {
     font-family: 'Source Sans Pro', sans-serif;
 }
+
 
 /* HEADER */
 .container {
@@ -22,7 +22,7 @@ body{
 }
 
 span {
-    color: rgb(247,166,166);
+    color: rgb(247, 166, 166);
 }
 
 /* NAV */
@@ -31,8 +31,6 @@ nav {
     background-color: #16165F;
     padding: 20px 0px;
 }
-
-
 
 li {
     margin: 3px 30px 3px 0px;
@@ -93,4 +91,5 @@ a:hover {
 
 #text-footer {
     color: white;
+    font-weight: normal;
 }

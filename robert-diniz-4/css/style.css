@@ -6,7 +6,6 @@
 }
 
 body {
-    margin: 0 auto;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -23,12 +22,17 @@ h2 {
 
 a {
     color: #5551FF;
-    font-size: 12px;
+    font-size: 16px;
     text-decoration: none;
+    font-weight: bold;
 }
 
 ol {
     margin-left: 20px;
+}
+
+li {
+    margin: 3px 30px 3px 0px;
 }
 
 p,
@@ -55,10 +59,8 @@ img {
     color: white;
 }
 
-
-
 span {
-    color: rgb(247,166,166);
+    color: rgb(247, 166, 166);
 }
 
 /* NAV */
@@ -68,15 +70,16 @@ nav {
     padding: 20px 0px;
 }
 
-
-
 .nav-li {
     margin: 3px 30px 3px 0px;
     display: inline;
 }
 
+.nav-links {
+    display: inline;
+}
+
 a {
-    text-decoration: none;
     color: white;
 }
 
@@ -84,10 +87,25 @@ a:hover {
     opacity: 80%;
 }
 
-
 .title-notice {
     display: flex;
-    
+
+}
+
+/* MAIN */
+
+main {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.link-materia {
+    color: #5551FF;
+    font-size: 12px;
+}
+
+hr {
+    margin-top: 20px;
 }
 
 /* FOOTER */
