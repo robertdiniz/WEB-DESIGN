@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+/* HEADER */
+
+.cabecalho {
+    background-color: #49274A;
+    width: 100%;
+    height: ;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 34px;
+}
+
+h2 {
+    color: #49274A;
+}
