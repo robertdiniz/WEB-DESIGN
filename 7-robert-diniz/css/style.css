@@ -4,21 +4,85 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     color: #333;
+    text-decoration: none;
+    list-style: none;
 }
 
 /* HEADER */
 
-.cabecalho {
-    background-color: #49274A;
+header {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.cab {
+    background-color:#94618E;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
-    text-align: center;
-    color: white;
     font-size: 34px;
+    color: white;
+    text-align: center;
 }
 
 h2 {
     color: #49274A;
+}
+
+ul {
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #F8EEE7;
+}
+
+li {
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+li:hover {
+    opacity: 80%;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+}
+
+/* MAIN */
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.container {
+    width: 400px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #F8EEE7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#email {
+    text-decoration: underline;
+    color: #94618E;
 }
